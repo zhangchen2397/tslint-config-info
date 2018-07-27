@@ -170,7 +170,7 @@ tslint 更多详细介绍 [https://github.com/palantir/tslint](https://github.co
       true,
       5
     ],
-    
+
     // 定义过的变量必做使用
     'no-unused-variable': false,
 
@@ -303,7 +303,7 @@ npm install --save-dev tslint-config-info
 
 // 或者
 "lint": "tslint -c tslint.json src/**/*.{ts,tsx}"
-
+```
 
 ![tips](http://3gimg.qq.com/wap30/qb-rnc/ts-tips.jpeg)
 
@@ -365,3 +365,5 @@ if (obj.getStuff() != undefined) { }
 ```
 
 # 集成至开发流程及工具中
+
+如果强制要求，可以把检测过程添加到 `git` 流程中，检测到有 `error` 时，不允许提交。
