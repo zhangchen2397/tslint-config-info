@@ -1,0 +1,20 @@
+{
+  "name": "tslint-config-info",
+  "version": "0.1.0",
+  "description": "common tslint config",
+  "main": "index.js",
+  "scripts": {
+    "example": "tslint -p ./example/tsconfig.json ./example/*.{ts,tsx}"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zhangchen2397/tslint-config-info.git"
+  },
+  "author": "samczhang@tencent.com",
+  "license": "MIT",
+  "dependencies": {
+    "tslint": "^5.11.0",
+    "tslint-react": "^3.6.0",
+    "typescript": "^2.9.2"
+  }
+}
