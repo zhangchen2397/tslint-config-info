@@ -227,8 +227,6 @@ tslint 更多详细介绍 [https://github.com/palantir/tslint](https://github.co
 }
 ```
 
-tslint-react 更多详细介绍 [https://github.com/palantir/tslint-react](https://github.com/palantir/tslint-react)
-
 # 如何使用
 
 ## 安装
@@ -288,6 +286,8 @@ npm install --save-dev tslint-config-info
   }
 }
 ```
+
+tslint-react 更多详细介绍 [https://github.com/palantir/tslint-react](https://github.com/palantir/tslint-react)
 
 ### 非 ts 项目，可以使用 eslint-config-info
 
